@@ -1,0 +1,9 @@
+
+const express = require('express')
+
+const router = express.Router();
+
+router.get('/getPosts', getPosts)
+router.get('/getDetail/:id', getPosts)
+router.get('/getUpdate/:id', getPosts)
+router.get('/deletePost/:id', getPosts)
